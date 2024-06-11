@@ -1,0 +1,14 @@
+.logo-area {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo-area-logo {
+    margin: 0 10px;
+}
+.logo-area-title {
+    margin-right: 20px;
+}
+.link {
+    cursor: pointer;
+}

@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HeaderPage from './modules/Header/Header';
+import Bench from './modules/Bench/Bench'
+import { Flex, Layout } from 'antd';
+const { Header,  Content } = Layout;
 
-function App() {
+const headerStyle:React.CSSProperties = {
+  height:40,
+  padding:0,
+  backgroundColor:"#fff"
+}
+const ContentStyle:React.CSSProperties = {
+  height: 'calc(100vh - 40px)',
+}
+
+ function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Layout>
+        <Header style={headerStyle}>
+          <HeaderPage></HeaderPage>
+        </Header>
+        <Content style={ContentStyle}>  
+          <Bench></Bench>
+        </Content>
+      </Layout>
+    
+  </div>
   );
 }
 

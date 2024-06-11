@@ -1,0 +1,21 @@
+.operation-btn {
+    height: 100%;
+    display: flex;
+}
+.btn {
+    cursor: pointer;
+    margin: 4px;
+    width: 24px;
+}
+.upload {
+    color: #0093ff;
+}
+.download {
+    color: #3ab428;
+}
+.public {
+    color: #c243b0;
+}
+.file {
+    color: #f5bf5d;
+}

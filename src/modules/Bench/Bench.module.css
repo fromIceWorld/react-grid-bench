@@ -1,0 +1,33 @@
+.bench {
+    height: 100%;
+}
+.page-change-btns {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+.page-change-btns > .anticon {
+    display: flex;
+    flex-direction: column;
+}
+.ant-layout-sider-children {
+    width: 100%;
+}
+.page-change-btns svg {
+    width: 24px;
+}
+.page-change-btns > .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+svg {
+    font-size: 30px;
+}
+.slider {
+    background-color: #fff !important;
+    display: flex;
+}
