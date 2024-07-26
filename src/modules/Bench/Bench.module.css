@@ -24,10 +24,14 @@
     cursor: pointer;
     font-size: 14px;
 }
-svg {
-    font-size: 30px;
-}
+
 .slider {
     background-color: #fff !important;
     display: flex;
+}
+.slider svg {
+    font-size: 24px;
+}
+.active-btn {
+    color: #1890ff;
 }

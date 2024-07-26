@@ -1,0 +1,14 @@
+.box {
+    font-size: 24px;
+    border-radius: 2px;
+    color: #fff;
+    border-color: #1890ff;
+    background: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.component {
+    border: 2px solid #dfdfdf;
+    height: 30px;
+    border-radius: 4px;
+}

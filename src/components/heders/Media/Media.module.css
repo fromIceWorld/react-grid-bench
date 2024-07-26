@@ -1,0 +1,26 @@
+.btn {
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 0px;
+    color: #9b9b9b;
+    height: 100%;
+}
+.active {
+    color: black !important;
+}
+.deactive {
+}
+.media {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.btn svg {
+    font-size: 20px;
+}
+.ant-input-number-handler-wrap svg {
+    width: 12px;
+}
+.input {
+    width: 100px;
+}

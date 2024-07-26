@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import HeaderPage from './modules/Header/Header';
 import Bench from './modules/Bench/Bench'
-import { Flex, Layout } from 'antd';
+import {  Layout } from 'antd';
+import Config from './components/config';
+import ContextMenu from './components/contextmenu/context-menu';
 const { Header,  Content } = Layout;
 
 const headerStyle:React.CSSProperties = {
@@ -25,7 +27,7 @@ const ContentStyle:React.CSSProperties = {
           <Bench></Bench>
         </Content>
       </Layout>
-    
+      <Config></Config>
   </div>
   );
 }

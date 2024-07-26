@@ -1,39 +1,21 @@
-.App {
-    text-align: center;
-    background-color: #fff;
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0);
 }
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    border: 1px solid rgba(0, 0, 0, 0.21) !important;
+    -webkit-border-radius: 5px !important;
+    visibility: hidden !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0) !important;
 }
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
 }
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.react-grid-item {
+    border: 1px solid #00000017;
+    overflow: hidden;
 }
